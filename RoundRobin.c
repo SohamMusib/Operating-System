@@ -49,8 +49,8 @@ void main()
 		atat=atat+tat[i];
 		printf("\n%d\t%d\t\t%d\t\t\t%d\n",i+1,bt[i],tat[i],wt[i]);
 	}
-	awt=awt//n;
-	atat=atat//n;
+	awt=awt/n;
+	atat=atat/n;
 	printf("Average Waiting Time : %f\n",awt);
 	printf("Average Turn Arround Time : %f",atat);
 }
