@@ -2,7 +2,7 @@
  
 #define n 4
  
-int compltedPhilo = 0,i
+int compltedPhilo = 0,i;
  
 struct fork{
 	int taken;
@@ -74,7 +74,7 @@ void goForDinner(int philID){ //same like threads concept here cases implemented
 }
  
 int main(){
-	for(i=0;i<n+1;i++)
+	for(i=0;i<n;i++)
         ForkAvil[i].taken=Philostatus[i].left=Philostatus[i].right=0;
  
 	while(compltedPhilo<n){
