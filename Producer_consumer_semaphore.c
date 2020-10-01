@@ -38,12 +38,12 @@ int main()
  
 int wait(int s)
 {
-    return (s--);
+    return (--s);
 }
  
 int signal(int s)
 {
-    return(s++);
+    return(++s);
 }
  
 void producer()
